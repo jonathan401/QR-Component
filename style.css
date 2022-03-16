@@ -1,0 +1,62 @@
+:root {
+  --card-bg: hsl(0, 0%, 100%);
+  --main-bg: hsl(212, 45%, 89%);
+  --main-text-color: hsl(220, 15%, 55%);
+  --header-text-color: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--main-bg);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.card {
+  max-width: 300px;
+  padding: 0 2rem;
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 1.3rem 0.9rem;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card-image {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+}
+
+.card-header {
+  font-size: 0.6rem;
+  color: var(--header-text-color);
+  margin-bottom: 1.1rem;
+}
+
+.card-main-text {
+  font-size: 0.9rem;
+  color: var(--main-text-color);
+}
